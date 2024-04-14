@@ -21,9 +21,9 @@ import (
 	utls "github.com/refraction-networking/utls"
 	"golang.org/x/net/publicsuffix"
 
-	"github.com/imroc/req/v3/http2"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/jmzwcn/req/v3/http2"
+	"github.com/jmzwcn/req/v3/internal/header"
+	"github.com/jmzwcn/req/v3/internal/util"
 )
 
 // DefaultClient returns the global default Client.
@@ -517,7 +517,7 @@ func (c *Client) DevMode() *Client {
 }
 
 // SetScheme set the default scheme for client, will be used when
-// there is no scheme in the request URL (e.g. "github.com/imroc/req").
+// there is no scheme in the request URL (e.g. "github.com/jmzwcn/req").
 func (c *Client) SetScheme(scheme string) *Client {
 	if !util.IsStringEmpty(scheme) {
 		c.scheme = strings.TrimSpace(scheme)

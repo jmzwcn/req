@@ -37,14 +37,14 @@ import (
 	"golang.org/x/net/http2/hpack"
 	"golang.org/x/net/idna"
 
-	"github.com/imroc/req/v3/http2"
-	"github.com/imroc/req/v3/internal/ascii"
-	"github.com/imroc/req/v3/internal/common"
-	"github.com/imroc/req/v3/internal/dump"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/netutil"
-	"github.com/imroc/req/v3/internal/transport"
-	reqtls "github.com/imroc/req/v3/pkg/tls"
+	"github.com/jmzwcn/req/v3/http2"
+	"github.com/jmzwcn/req/v3/internal/ascii"
+	"github.com/jmzwcn/req/v3/internal/common"
+	"github.com/jmzwcn/req/v3/internal/dump"
+	"github.com/jmzwcn/req/v3/internal/header"
+	"github.com/jmzwcn/req/v3/internal/netutil"
+	"github.com/jmzwcn/req/v3/internal/transport"
+	reqtls "github.com/jmzwcn/req/v3/pkg/tls"
 )
 
 const (

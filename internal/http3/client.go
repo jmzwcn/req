@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/imroc/req/v3/internal/dump"
-	"github.com/imroc/req/v3/internal/quic-go/quicvarint"
-	"github.com/imroc/req/v3/internal/transport"
+	"github.com/jmzwcn/req/v3/internal/dump"
+	"github.com/jmzwcn/req/v3/internal/quic-go/quicvarint"
+	"github.com/jmzwcn/req/v3/internal/transport"
 	"github.com/quic-go/qpack"
 	"github.com/quic-go/quic-go"
 )

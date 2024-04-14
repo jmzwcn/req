@@ -1,7 +1,7 @@
 package req
 
 import (
-	"github.com/imroc/req/v3/internal/tests"
+	"github.com/jmzwcn/req/v3/internal/tests"
 	"testing"
 )
 

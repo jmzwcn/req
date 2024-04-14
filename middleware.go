@@ -2,8 +2,8 @@ package req
 
 import (
 	"bytes"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/jmzwcn/req/v3/internal/header"
+	"github.com/jmzwcn/req/v3/internal/util"
 	"io"
 	"mime/multipart"
 	"net/http"

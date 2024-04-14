@@ -2,7 +2,7 @@ package req
 
 import (
 	"bytes"
-	"github.com/imroc/req/v3/internal/tests"
+	"github.com/jmzwcn/req/v3/internal/tests"
 	"log"
 	"testing"
 )

@@ -1,7 +1,6 @@
 package req
 
 import (
-	"bytes"
 	"context"
 	"crypto/tls"
 	"crypto/x509"

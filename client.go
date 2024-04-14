@@ -1715,9 +1715,10 @@ func (c *Client) roundTrip(r *Request) (resp *Response, err error) {
 
 	// auto-read response body if possible
 	if resp.Err == nil && !c.disableAutoReadResponse && !r.isSaveResponse && !r.disableAutoReadResponse && resp.StatusCode > 199 {
-		resp.ToBytes()
+		// Comment for multi event-stream
+		// resp.ToBytes()
 		// restore body for re-reads
-		resp.Body = io.NopCloser(bytes.NewReader(resp.body))
+		// resp.Body = io.NopCloser(bytes.NewReader(resp.body))
 	}
 
 	for _, f := range c.afterResponse {
